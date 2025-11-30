@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #050505;
+    color: #ffffff;
+    /* Evita il bounce dello scroll su iOS per un feel più nativo */
+    overscroll-behavior-y: none;
+    -webkit-tap-highlight-color: transparent;
+}
